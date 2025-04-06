@@ -5,7 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
-import org.example.project.ui.logged.LoggedScreen
+import org.example.project.ui.logged.LoggedContent
 import org.example.project.ui.unlogged.CreateAccountScreen
 import org.example.project.ui.unlogged.LoginScreen
 
@@ -35,7 +35,7 @@ fun RootNavGraph(navController: NavHostController) {
         }
 
         composable(route = Graph.LOGGED) {
-            LoggedScreen()
+            LoggedContent()
         }
     }
 }

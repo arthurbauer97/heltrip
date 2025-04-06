@@ -29,8 +29,8 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import heltrip.composeapp.generated.resources.Res
 import heltrip.composeapp.generated.resources.img_helptrip_login
-import heltrip.composeapp.generated.resources.olhoaberto
-import heltrip.composeapp.generated.resources.olhofechado
+import heltrip.composeapp.generated.resources.olho_aberto
+import heltrip.composeapp.generated.resources.olho_fechado
 import org.jetbrains.compose.resources.painterResource
 
 @Composable
@@ -83,8 +83,8 @@ fun LoginScreen(
                             Icon(
                                 modifier = Modifier
                                     .size(20.dp),
-                                painter = if (showPassword) painterResource(Res.drawable.olhoaberto)
-                                else painterResource(Res.drawable.olhofechado),
+                                painter = if (showPassword) painterResource(Res.drawable.olho_aberto)
+                                else painterResource(Res.drawable.olho_fechado),
                                 contentDescription = null
                             )
                         }
